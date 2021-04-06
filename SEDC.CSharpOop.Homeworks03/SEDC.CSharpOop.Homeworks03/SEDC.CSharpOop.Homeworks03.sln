@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Homework03.01", "SEDC.CSharpOop.Homework03.01\SEDC.CSharpOop.Homework03.01.csproj", "{48B7EFAB-6B1B-44CC-B198-63E4947BF116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.CSharpOop.Homework03.2", "SEDC.CSharpOop.Homework03.2\SEDC.CSharpOop.Homework03.2.csproj", "{A241FF7D-D150-41EB-A0B0-09F90C3E1346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B7EFAB-6B1B-44CC-B198-63E4947BF116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B7EFAB-6B1B-44CC-B198-63E4947BF116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B7EFAB-6B1B-44CC-B198-63E4947BF116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B7EFAB-6B1B-44CC-B198-63E4947BF116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A241FF7D-D150-41EB-A0B0-09F90C3E1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A241FF7D-D150-41EB-A0B0-09F90C3E1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A241FF7D-D150-41EB-A0B0-09F90C3E1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A241FF7D-D150-41EB-A0B0-09F90C3E1346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C834F666-43D5-4E0E-B1A7-D1142457819E}
+	EndGlobalSection
+EndGlobal
