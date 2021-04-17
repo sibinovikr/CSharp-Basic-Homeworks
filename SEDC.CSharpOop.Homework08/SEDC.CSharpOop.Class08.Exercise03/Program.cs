@@ -62,7 +62,7 @@ namespace SEDC.CSharpOop.Class08.Exercise03
             FansArray.Add(Jane);
 
 
-            //●Select the person Jerry and add all the songs which start with the letter B
+            //Select the person Jerry and add all the songs which start with the letter B
             Console.WriteLine($"{GetFullName(Jerry)} favourite songs are (Starts with B): ");
             Jerry.FavoriteSongs = Songs.Where(song => song.Title.StartsWith("B")).ToList();
             Jerry.FavoriteSongs.ForEach(song => Console.WriteLine(song.Title));
