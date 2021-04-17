@@ -1,4 +1,8 @@
-﻿namespace Models
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SEDC.CSharpOop.CLass07.Domain
 {
     public class SalesPerson : Employee
     {
@@ -7,10 +11,10 @@
         public SalesPerson(string firstName, string lastName, double successSaleRevenue) : base(firstName, lastName,
             Role.Sales, 500)
         {
-            SuccessSaleRevenue = successSaleRevenue;
+            //SuccessSaleRevenue = successSaleRevenue;
         }
 
-        public void ExtendSuccessRevenue(double revenue)
+        public void AddSuccessRevenue(double revenue)
         {
             SuccessSaleRevenue += revenue;
         }
@@ -23,7 +27,7 @@
             {
                 bonus = 500;
             }
-            else if(SuccessSaleRevenue > 2000 && SuccessSaleRevenue <= 5000)
+            else if (SuccessSaleRevenue > 2000 && SuccessSaleRevenue <= 5000)
             {
                 bonus = 1000;
             }
@@ -31,11 +35,11 @@
             {
                 bonus = 1500;
             }
-            
+
             return Salary + bonus;
 
-            //if salary is private property
-            //return base.GetSalary() + bonus;
+            
+            
         }
     }
 }

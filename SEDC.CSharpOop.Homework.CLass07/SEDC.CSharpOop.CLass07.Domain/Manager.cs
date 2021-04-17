@@ -1,4 +1,8 @@
-﻿namespace Models
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SEDC.CSharpOop.CLass07.Domain
 {
     public class Manager : Employee
     {
@@ -6,7 +10,7 @@
 
         public Manager(string firstName, string lastName, double salary) : base(firstName, lastName, Role.Manager, salary)
         {
-            //Bonus = 0;
+           
         }
 
         public void AddBonus(double bonus)
