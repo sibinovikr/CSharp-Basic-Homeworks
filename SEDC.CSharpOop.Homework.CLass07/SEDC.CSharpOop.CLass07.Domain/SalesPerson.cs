@@ -11,7 +11,7 @@ namespace SEDC.CSharpOop.CLass07.Domain
         public SalesPerson(string firstName, string lastName, double successSaleRevenue) : base(firstName, lastName,
             Role.Sales, 500)
         {
-            //SuccessSaleRevenue = successSaleRevenue;
+            
         }
 
         public void AddSuccessRevenue(double revenue)
